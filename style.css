@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:wght@100;200;300;400;600&display=swap');
+
+:root {
+    --violet: hsl(257, 40%, 49%);
+    --soft-magenta: hsl(300, 69%, 71%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(./images/bg-mobile.svg);
+    background-color: var(--violet);
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    width: 7.5rem;
+}
+
+.illustration-section img{
+    width: 100%;
+    margin: 3rem 0;
+}
+
+
+
+
+
+
+
