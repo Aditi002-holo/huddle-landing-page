@@ -15,10 +15,13 @@ body {
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     background-image: url(./images/bg-mobile.svg);
+    background-repeat: no-repeat;
     background-color: var(--violet);
+    text-align: center;
     display: grid;
     grid-template-columns: 1fr;
     margin: 2rem;
+    color: #fff;
 } 
 
 h1,
@@ -30,6 +33,10 @@ h6 {
     font-family: 'Poppins', sans-serif;
 }
 
+header {
+    text-align: left;
+}
+
 .logo {
     width: 7.5rem;
 }
@@ -38,6 +45,31 @@ h6 {
     width: 100%;
     margin: 3rem 0;
 }
+
+main h1 {
+    font-size: 1.4rem;
+}
+
+main p {
+    font-size: 0.9rem;
+    margin: 1rem 0;
+    line-height: 1.5;
+}
+
+main button {
+    width: 60%;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+    color: var(--violet);
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 5px 5px 5px;
+}
+
+
+
+
 
 
 
