@@ -19,7 +19,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     margin: 2rem;
-}
+} 
 
 h1,
 h2,
